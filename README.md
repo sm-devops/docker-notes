@@ -34,44 +34,44 @@ to check the effects of pruning on disk space, run the following
 ```
  2. Old to new command mappings
  ```
- docker attach      ->  docker container attach
-docker commit      ->  docker container commit
-docker cp          ->  docker container cp
-docker create      ->  docker container create
-docker diff        ->  docker container diff
-docker exec        ->  docker container exec
-docker export      ->  docker container export
-docker kill        ->  docker container kill
-docker logs        ->  docker container logs
-docker pause       ->  docker container pause
-docker port        ->  docker container port
-docker inspect     ->  docker {container,image} inspect
-docker ps          ->  docker container ls
-docker rename      ->  docker container rename
-docker restart     ->  docker container restart
-docker rm          ->  docker container rm
-docker run         ->  docker container run
-docker start       ->  docker container start
-docker stats       ->  docker container stats
-docker stop        ->  docker container stop
-docker top         ->  docker container top
-docker unpause     ->  docker container unpause
-docker update      ->  docker {container,node,swarm} update
-docker wait        ->  docker container wait
+  docker attach      ->  docker container attach
+  docker commit      ->  docker container commit
+  docker cp          ->  docker container cp
+  docker create      ->  docker container create
+  docker diff        ->  docker container diff
+  docker exec        ->  docker container exec
+  docker export      ->  docker container export
+  docker kill        ->  docker container kill
+  docker logs        ->  docker container logs
+  docker pause       ->  docker container pause
+  docker port        ->  docker container port
+  docker inspect     ->  docker {container,image} inspect
+  docker ps          ->  docker container ls
+  docker rename      ->  docker container rename
+  docker restart     ->  docker container restart
+  docker rm          ->  docker container rm
+  docker run         ->  docker container run
+  docker start       ->  docker container start
+  docker stats       ->  docker container stats
+  docker stop        ->  docker container stop
+  docker top         ->  docker container top
+  docker unpause     ->  docker container unpause
+  docker update      ->  docker {container,node,swarm} update
+  docker wait        ->  docker container wait
 
-docker build       ->  docker image build
-docker history     ->  docker image history
-docker images      ->  docker image ls
-docker import      ->  docker image import
-docker load        ->  docker image load
-docker pull        ->  docker image pull
-docker push        ->  docker image push
-docker rmi         ->  docker image rm
-docker save        ->  docker image save
-docker tag         ->  docker image tag
+  docker build       ->  docker image build
+  docker history     ->  docker image history
+  docker images      ->  docker image ls
+  docker import      ->  docker image import
+  docker load        ->  docker image load
+  docker pull        ->  docker image pull
+  docker push        ->  docker image push
+  docker rmi         ->  docker image rm
+  docker save        ->  docker image save
+  docker tag         ->  docker image tag
 
-docker deploy      ->  docker stack deploy
-docker events      ->  docker system events
+  docker deploy      ->  docker stack deploy
+  docker events      ->  docker system events
  ```
 
 3. Checkpoints
