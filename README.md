@@ -13,7 +13,7 @@ docker-machine env default
 
 ####New Commands
 
-1. Prune command
+- Prune command
 
 ```
  docker container prune  # well delet all stopped containers.
@@ -32,7 +32,7 @@ to check the effects of pruning on disk space, run the following
  docker system df
  
 ```
- 2. Old to new command mappings
+ - Old to new command mappings
  ```
   docker attach      ->  docker container attach
   docker commit      ->  docker container commit
@@ -74,9 +74,9 @@ to check the effects of pruning on disk space, run the following
   docker events      ->  docker system events
  ```
 
-3. Checkpoints
+- Checkpoints
 Ability to freeze running containers and saving the state.
 
-4. Secrets
+- Secrets
 The new secret feature (meant to be used only in Swarm mode, for now) works by exposing secrets to containers at runtime through a tmpfs mount.
 
