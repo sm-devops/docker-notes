@@ -32,7 +32,7 @@ to check the effects of pruning on disk space, run the following
  docker system df
  
 ```
- - Old to new command mappings
+- Old to new command mappings
  ```
   docker attach      ->  docker container attach
   docker commit      ->  docker container commit
