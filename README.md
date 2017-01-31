@@ -13,7 +13,7 @@ docker-machine env default
 
 ####New Commands
 
-<b>1. Prune command</b>
+1. Prune command
 
 ```
  docker container prune  # well delet all stopped containers.
